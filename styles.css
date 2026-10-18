@@ -1,0 +1,80 @@
+
+/* Reset default margin, padding, and border */
+body, header, h1, h2, p, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set background color for the whole page */
+body {
+    background-color: #e8f0e6;
+    font-family: Georgia, serif;
+    color: #263b2a;
+}
+
+/* Style the header */
+header {
+    background-color: #245c3a;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px;
+}
+
+/* Style the section */
+section {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: #fffdf5;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Style the headings */
+h1 {
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    color: #245c3a;
+    font-size: 26px;
+    margin: 25px 0 15px;
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Style the list */
+ul {
+    list-style: square;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+/* Style vacation photographs */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Make the website mobile-friendly */
+section {
+    width: 85%;
+}
+
+/* Style photo references */
+a {
+    color: #245c3a;
+    text-decoration: underline;
+}
